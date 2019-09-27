@@ -7,7 +7,7 @@
 * #### `BeautifulSoup` is used for the website scraping for *The Brief* section. Alternatively it can be achieved from `RSS feed`.
 * #### `server.py` is the main server logic file. At `/getTimeNews` endpoint call it responses with the JSON of all the feeds
 #### recieved from feeds.py.
-* #### Server runs at `8000 port` on localhost. (For development environment)
+* #### Server runs at `8000` port on localhost. (For development environment)
 * #### `requirements.txt` contains all the dependencies of the project to install.
 
 ### **To run server**
@@ -22,3 +22,6 @@
 
 ### **Response Screenshots**
 
+![alt text](https://github.com/aarushibhatia/brief-feed-time/blob/master/screenshots/json.PNG "JSON response capture")
+
+![alt text](https://github.com/aarushibhatia/brief-feed-time/blob/master/screenshots/time.PNG "time.com feed response capture")
